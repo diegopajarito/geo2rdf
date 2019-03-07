@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Test Terminal Command
+qgisMinimumVersion=3.0
+description=This plugin is the very first one to check the procedure
+version=0.1
+author=Diego Pajarito
+email=diegopajarito@gmail.com
+
+about=The plugin is my first attepmt to use a QGIS plugin to execute terminal commads, in particular the Geotriples console terminal for translating geospatial data into RDF
+
+tracker=http://diego.co/bug
+repository=http://diego.co/repo
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python,rdf,geotriples
+
+homepage=http://diego.co
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
