@@ -14,6 +14,8 @@ import qgis.utils
 # Setting up the input values
 lyr_name = 'sint'
 
+# To git
+
 # Setting up the veariables needed by geotriples
 geotriples = 'geotriples-cmd'
 action = "generate_mapping"
