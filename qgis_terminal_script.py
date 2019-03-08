@@ -17,6 +17,7 @@ lyr_name = 'sint'
 # To git test again
 
 # Setting up the veariables needed by geotriples
+
 geotriples = 'geotriples-cmd'
 action = "generate_mapping"
 b_command = "-b"
